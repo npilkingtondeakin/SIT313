@@ -1,0 +1,99 @@
+body {
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+
+
+#menu ul {
+    
+    list-style-type: none;
+    color: royalblue;
+}
+
+#menu li {
+    display: inline;
+    padding: 1%;
+}
+
+
+
+.background img {
+    height: 50%;
+    width: 100%;
+}
+
+#about img {
+    padding:5%;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+.imgtext {
+    color: white;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    bottom: 30%;
+    left: 50%;
+    background-color: black;
+    transform: translate(-50%, -50%);
+}
+
+.background:hover div {
+    opacity: 1;
+    
+    width: 100%;
+} 
+#roundimage {
+    border-radius: 50%;
+}
+
+#squareimage {
+    border-radius: 10%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#work {
+    display: absolute;
+    text-align: center;
+    width: 50%
+}
+
+
+
+#work img {
+    width:100%;
+        
+        
+}
+
+#work p {
+    justify-content: left;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid black;
+}
+
+.gallery img {
+    height: auto;
+    width: 100;
+}
+
+
