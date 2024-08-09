@@ -1,0 +1,82 @@
+#topBar {
+    display: flex;
+    flex-direction: row;   
+    background-color: lightgray;
+}
+
+#topBar button {
+    border-style: hidden;
+    background-color:transparent;
+    font-weight: bold;  
+}
+
+#topBar button:hover {
+    font-size: 110%;     
+}
+
+.row {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+}
+
+.row div {
+    margin: 5%;
+}
+
+#articles button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translatex(-50%);
+    transform: translatex(-50%);
+}
+
+table th, td{
+    border: 1px solid black;
+}
+
+#footerNav button {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    border-style: hidden;
+    background-color:transparent;
+    font-weight: bold; 
+}
+
+#footerNav2 th, td {
+    width: 100%;
+} 
+
+
+
+#footerNav2 button {
+   
+       
+    justify-content: center;
+    border-style: hidden;
+    background-color:transparent;
+    font-weight: bold; 
+}
+
+#socialMedia {
+    display: flex;
+    
+}
+
+#socialMedia img {
+    width: 50px;
+    height: 50px;
+}
+
+table  {
+    width: 100%;
+    background-color: teal;
+}
+
+table td, th {
+    width: 100%;
+}
+
+
